@@ -74,7 +74,6 @@ gap: 60px;
 .listing{
     width: 900px;
 height: 744px;
-gap: 40px;
 }
 .row1{
    margin-top: 50px;
@@ -90,10 +89,13 @@ width: 900px;
 flex-direction: row;
 }
 .img-style{
-    width: 280px;
-    flex: 25%;
+    width: 335px;
+    flex: 20%;
     display: flex;
     flex-wrap: wrap;
-    padding: 5px;
-    box-shadow: 15px 15px 8px 16px lightblue;
+    margin: 10px;
+    box-shadow: 10px 10px 8px 16px lightblue;
+}
+.img-style :hover{
+    border: 2px solid rgb(0, 149, 255);
 }
