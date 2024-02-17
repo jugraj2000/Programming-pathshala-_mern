@@ -11,9 +11,11 @@ gap: 40px;
     display: flex;
 }
 .shoes{
+    
     width: 900px;
 height: 793px;
 gap: 20px;
+
 }
 .filter{
     display: flex;
@@ -80,6 +82,9 @@ height: 744px;
 display: flex;
 width: 900px;
 }
+.i{
+ border-radius: 15px;
+}
 .row2{
     width: 900px;
     height: 352px;
@@ -91,6 +96,7 @@ flex-direction: row;
 .img-style{
     width: 335px;
     flex: 20%;
+    border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
