@@ -52,10 +52,13 @@ margin-top: 20px;
 .search{
     margin-top: 20px;
     display: flex;
-    width: 400px;
+    width: 450px;
+    height: 20px;
     justify-content: flex-end;
     border-radius: 2px;
     margin-right: 10px;
+    background: transparent url("/assets/search.svg") no-repeat 13px;
+
 }
 .ib{
     display: flex;
@@ -87,11 +90,9 @@ width: 900px;
 }
 .row2{
     width: 900px;
-    height: 352px;
-    gap: 20px;
+    height: 345px;
     margin-top: 10px;
     display: flex;
-flex-direction: row;
 }
 .img-style{
     width: 335px;
